@@ -1,0 +1,389 @@
+[
+  {
+    "ContainingType": "SupplyChain.Controllers.CashController",
+    "Method": "Index",
+    "RelativePath": "api/Cash/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back_End.Controllers.ChequeController",
+    "Method": "Index",
+    "RelativePath": "api/Cheque/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.CustomerController",
+    "Method": "AddSingleCustomer",
+    "RelativePath": "api/Customer/AddCustomer-With-RoleId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "customer",
+        "Type": "Back_End.Models.CustomerEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer/GetAllCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/Customer/GetCustomerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.DeliveriesController",
+    "Method": "GetRecordZ",
+    "RelativePath": "api/Deliveries/GetAllRecords",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.DeliveriesController",
+    "Method": "PutRecord",
+    "RelativePath": "api/Deliveries/UpdateDeliveries",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recordId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "delivery",
+        "Type": "Back_End.Models.DeliveryEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.EmployeeController",
+    "Method": "AddSingleEmployee",
+    "RelativePath": "api/Employee/AddSingleRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "xx1.Entities_Models_.EmployeeEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.EmployeeController",
+    "Method": "Index",
+    "RelativePath": "api/Employee/GetAllEmployeeRecords",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.EmployeeController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/Employee/GetSingleEmployeeById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.EmployeeController",
+    "Method": "EditSingleEmployee",
+    "RelativePath": "api/Employee/UpdateDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "xx1.Entities_Models_.EmployeeEntity",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.InventoryController",
+    "Method": "Add",
+    "RelativePath": "api/Inventory/AddRecordToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "invent",
+        "Type": "xx1.Entities_Models_.InventoryEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.InventoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Inventory/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.InventoryController",
+    "Method": "GetConfirmedOrder",
+    "RelativePath": "api/Inventory/GetByConfirmed-OrderByCustomerId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.InventoryController",
+    "Method": "GetNewOrder",
+    "RelativePath": "api/Inventory/GetByNew-OrderByCustomerId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.InventoryController",
+    "Method": "Put",
+    "RelativePath": "api/Inventory/UpdateOrderStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.OrderController",
+    "Method": "Add_Order",
+    "RelativePath": "api/Order/Add-Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instance",
+        "Type": "Back_End.Models.OrderEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.OrderController",
+    "Method": "Get",
+    "RelativePath": "api/Order/IndexingAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.OrderCheckController",
+    "Method": "AddOrder",
+    "RelativePath": "api/OrderCheck/Add-OrderCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderCheck",
+        "Type": "xx1.Entities_Models_.OrderCheckEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "xx1.Controllers.OrderCheckController",
+    "Method": "Get",
+    "RelativePath": "api/OrderCheck/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "AddOrder",
+    "RelativePath": "api/Product/AddOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Back_End.Models.ProductEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "Edit",
+    "RelativePath": "api/Product/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Back_End.Models.ProductEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "GetAllByDescrption",
+    "RelativePath": "api/Product/GetAllByDescrption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "GetItemById",
+    "RelativePath": "api/Product/GetItemThroughId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplyChain.Controllers.ProductController",
+    "Method": "Index",
+    "RelativePath": "api/Product/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
