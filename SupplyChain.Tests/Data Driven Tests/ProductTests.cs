@@ -13,7 +13,7 @@ namespace SupplyChain.Tests.Data_Driven_Tests
     public class ProductTests
     {
         private readonly string connectionString = "Server=ROCKINWITHEBEST;Database=Supply Chain Management;Integrated Security=True;Persist Security Info=False;TrustServerCertificate=True;";
-        public IEnumerable<object[]> GetLoginTestData()
+        public IEnumerable<object[]> GetProductsTestData()
         {
             using (var connection = new SqlConnection(connectionString))
             {
@@ -23,8 +23,8 @@ namespace SupplyChain.Tests.Data_Driven_Tests
             }
         }
         [Theory]
-        [MemberData(nameof(LoginTestData))]
-        public void TestLogin(int Id, string Name, string Brand, int StockQuantity, int SupplierId)
+        [MemberData(nameof(ProductsTestData))]
+        public void TestProducts(int Id, string Name, string Brand, int StockQuantity, int SupplierId)
         {
             ProductEntity product = new ProductEntity();
             product.Name = Name;
@@ -44,6 +44,6 @@ namespace SupplyChain.Tests.Data_Driven_Tests
             });
         }
 
-        public static IEnumerable<object[]> LoginTestData => new ProductTests().GetLoginTestData();
+        public static IEnumerable<object[]> ProductsTestData => new ProductTests().GetProductsTestData();
     }
 }
