@@ -21,7 +21,7 @@ namespace SupplyChain.Mapper
 
             CreateMap<ProductEntity, ProductDto>().ReverseMap();
             CreateMap<CustomerEntity, CustomerDto>().ReverseMap();
-            CreateMap<DeliveryEntity, DeliveryDto>().ReverseMap();
+            // CreateMap<DeliveryEntity, DeliveryDto>().ReverseMap();
             CreateMap<OrderEntity, OrderDto>().ReverseMap();
             CreateMap<PaymentEntity, PaymentDto>().ReverseMap();
             CreateMap<ReturnEntity, ReturnDto>().ReverseMap();
