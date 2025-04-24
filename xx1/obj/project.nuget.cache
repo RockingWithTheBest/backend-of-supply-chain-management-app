@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6fEORDMX7+o=",
+  "dgSpecHash": "kNrHD/RrSKo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\xx1.csproj",
+  "projectFilePath": "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\xx1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sikan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

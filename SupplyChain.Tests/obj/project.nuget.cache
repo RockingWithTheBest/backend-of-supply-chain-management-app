@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "whz+NvvBZLM=",
+  "dgSpecHash": "byeD8LJ3IcE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\SupplyChain.Tests\\SupplyChain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\SupplyChain.Tests\\SupplyChain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sikan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\sikan\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\sikan\\.nuget\\packages\\dapper.sqlbuilder\\2.1.66\\dapper.sqlbuilder.2.1.66.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\fluentassertions\\8.0.1\\fluentassertions.8.0.1.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.10\\microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
     "C:\\Users\\sikan\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",

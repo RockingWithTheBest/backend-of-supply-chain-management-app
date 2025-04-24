@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\xx1.csproj": {}
+    "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\xx1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\xx1.csproj": {
+    "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\xx1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\xx1.csproj",
+        "projectUniqueName": "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\xx1.csproj",
         "projectName": "xx1",
-        "projectPath": "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\xx1.csproj",
+        "projectPath": "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\xx1.csproj",
         "packagesPath": "C:\\Users\\sikan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sikan\\OneDrive\\Desktop\\This Semester\\Курсач\\Ткрп\\BackEnd\\xx1\\obj\\",
+        "outputPath": "C:\\Users\\sikan\\OneDrive\\Desktop\\Repo\\backend-of-supply-chain-management-app\\xx1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
