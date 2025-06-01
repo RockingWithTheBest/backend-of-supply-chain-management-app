@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using SupplyChain.Data_Transfer_Object_DTOs_;
 using xx1.Db;
 using xx1.Entities_Models_;
@@ -80,9 +80,9 @@ namespace xx1.Controllers
 
         [HttpPost]
         [Route("AddRecordToCart")]
-        public IActionResult Add(int OrderId, InventoryEntity invent)
+        public IActionResult Add(int OrderId)
         {
-            var record = inventory.AddInventory(invent,OrderId);
+            var record = inventory.AddInventory(OrderId);
             if(record == null)
             {
                 return NotFound("Record Could not be added");
