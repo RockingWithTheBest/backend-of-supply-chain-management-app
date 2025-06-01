@@ -6,7 +6,7 @@ namespace xx1.Repository.Interface
     public interface IInventory : IDisposable
     {
         IEnumerable<InventoryEntity> GetAllInventory();
-        int AddInventory(InventoryEntity entity, int OrderId);
+        int AddInventory(int OrderId);
         IEnumerable<InventoryEntity> GetNewOrder(int CustomerId);
         IEnumerable<InventoryEntity> GetConfirmedOrder(int CustomerId);
         InventoryEntity UpdateOrderStatus(int Id);
